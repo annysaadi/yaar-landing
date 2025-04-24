@@ -20,12 +20,12 @@
     }
     header h1 {
       font-family: 'Playfair Display', serif;
-      font-size: 2.5rem;
+      font-size: 2rem;
       margin-bottom: 0.5rem;
       color: #2f2c29;
     }
     .subheader {
-      font-size: 1.1rem;
+      font-size: 1rem;
       color: #7a746e;
     }
     .container {
@@ -38,7 +38,7 @@
     }
     section h2 {
       font-family: 'Playfair Display', serif;
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       margin-bottom: 1rem;
       color: #2f2c29;
     }
@@ -63,24 +63,24 @@
       border-radius: 6px;
     }
     .testimonial {
-      display: flex;
-      gap: 2rem;
-      align-items: center;
       background: #fff;
-      padding: 2rem;
+      padding: 1.5rem;
       border-radius: 10px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.03);
-      margin-top: 2rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
     }
     .testimonial img {
-      width: 100px;
-      height: 100px;
+      width: 64px;
+      height: 64px;
       border-radius: 50%;
       object-fit: cover;
+      flex-shrink: 0;
     }
     .testimonial-text {
       font-size: 1rem;
-      color: #4e4a47;
     }
     .cta {
       text-align: center;
@@ -93,12 +93,14 @@
     .cta button {
       background: #25D366;
       color: white;
-      padding: 1rem 2.5rem;
+      padding: 1rem 2rem;
       border: none;
       border-radius: 5px;
       font-size: 1rem;
       cursor: pointer;
       transition: background 0.3s;
+      width: 100%;
+      max-width: 400px;
     }
     .cta button:hover {
       background: #1ebe5d;
@@ -108,6 +110,18 @@
       padding: 3rem 1rem 2rem;
       font-size: 0.9rem;
       color: #8b847e;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.6rem;
+      }
+      .testimonial {
+        flex-direction: column;
+        text-align: center;
+      }
+      .testimonial img {
+        margin-bottom: 1rem;
+      }
     }
   </style>
 </head>
@@ -173,6 +187,20 @@
         <div class="testimonial-text">
           <strong>Camila, 27 anos - PR</strong><br>
           “Comecei sem saber nada, só com meu celular. Hoje recebo toda semana certinho e recomendo pra qualquer mulher que queira uma renda real sem sair de casa.”
+        </div>
+      </div>
+      <div class="testimonial">
+        <img src="https://i.imgur.com/3QX2nKT.jpg" alt="Lívia">
+        <div class="testimonial-text">
+          <strong>Lívia, 34 anos - SP</strong><br>
+          “Eu trabalho no meu tempo, sem chefe e sem pressão. E o melhor: recebo toda sexta-feira no meu PIX. Liberdade total!”
+        </div>
+      </div>
+      <div class="testimonial">
+        <img src="https://i.imgur.com/t4gxvwx.jpg" alt="Renata">
+        <div class="testimonial-text">
+          <strong>Renata, 25 anos - RJ</strong><br>
+          “Foi o único trabalho online que realmente deu certo pra mim. Em menos de duas semanas já bati a meta e saquei. É real!”
         </div>
       </div>
     </section>
