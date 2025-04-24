@@ -4,128 +4,116 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Trabalhe como Host no Yaar</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
+      background: #fcf9f4;
+      color: #403c3a;
       font-family: 'Inter', sans-serif;
-      background: #fefbf3;
-      color: #4e403f;
-      line-height: 1.6;
+      line-height: 1.7;
     }
     header {
-      background: #f1ebdf;
-      color: #8b7f7b;
-      padding: 2rem 1rem;
+      background: #f3eee8;
+      padding: 4rem 1.5rem 2rem;
       text-align: center;
     }
-    h1 {
-      font-size: 2rem;
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
       margin-bottom: 0.5rem;
+      color: #2f2c29;
     }
     .subheader {
-      font-size: 1rem;
-      color: #8b7f7b;
+      font-size: 1.1rem;
+      color: #7a746e;
     }
     .container {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1.5rem;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
     }
-    .section {
-      margin-bottom: 2rem;
+    section {
+      margin-bottom: 3rem;
     }
-    .section h2 {
-      color: #4e403f;
-      font-size: 1.5rem;
+    section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
       margin-bottom: 1rem;
+      color: #2f2c29;
     }
-    .highlight {
-      background: #fffaf5;
-      padding: 1rem;
-      border-left: 4px solid #d9a8a0;
-      margin-bottom: 1rem;
-      font-size: 1rem;
+    .text-block {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
     }
-    ul {
+    .text-block ul {
       padding-left: 1.25rem;
     }
-    ul li {
-      margin-bottom: 0.5rem;
-      font-size: 1rem;
+    .text-block ul li {
+      margin-bottom: 0.75rem;
+    }
+    .urgency {
+      background: #fff3f0;
+      padding: 1.2rem 2rem;
+      border-left: 4px solid #e27d60;
+      font-weight: 600;
+      margin: 3rem 0 2rem;
+      border-radius: 6px;
     }
     .testimonial {
-      background: #fffaf5;
-      padding: 1.5rem;
-      border-radius: 8px;
       display: flex;
+      gap: 2rem;
       align-items: center;
-      gap: 1rem;
-      margin-top: 3rem;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+      margin-top: 2rem;
     }
     .testimonial img {
-      width: 60px;
-      height: 60px;
+      width: 100px;
+      height: 100px;
       border-radius: 50%;
       object-fit: cover;
     }
     .testimonial-text {
       font-size: 1rem;
-    }
-    .urgency {
-      background: #ffe9e3;
-      border-left: 4px solid #ff715b;
-      padding: 1rem;
-      margin: 2rem 0;
-      font-weight: 600;
-      color: #b14a3c;
-      font-size: 1rem;
+      color: #4e4a47;
     }
     .cta {
       text-align: center;
-      margin-top: 5rem;
-      padding: 0 1rem;
+      margin-top: 4rem;
+    }
+    .cta p {
+      font-weight: 600;
+      margin-bottom: 1.5rem;
     }
     .cta button {
       background: #25D366;
-      border: none;
-      padding: 1rem 2rem;
-      font-size: 1.1rem;
       color: white;
-      cursor: pointer;
+      padding: 1rem 2.5rem;
+      border: none;
       border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
       transition: background 0.3s;
-      max-width: 90%;
-      width: 100%;
     }
     .cta button:hover {
       background: #1ebe5d;
     }
     footer {
       text-align: center;
-      padding: 2rem 1rem;
-      font-size: 0.85rem;
-      color: #8b7f7b;
-    }
-    @media screen and (min-width: 600px) {
-      h1 {
-        font-size: 2.5rem;
-      }
-      .subheader {
-        font-size: 1.25rem;
-      }
-      .section h2 {
-        font-size: 1.75rem;
-      }
-      .highlight, ul li, .testimonial-text {
-        font-size: 1.1rem;
-      }
+      padding: 3rem 1rem 2rem;
+      font-size: 0.9rem;
+      color: #8b847e;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Transforme seu tempo livre em renda com o App Yaar</h1>
+    <h1>Trabalhe como Host no App Yaar</h1>
     <p class="subheader">Ganhe em dólares atendendo chamadas de vídeo do conforto da sua casa</p>
   </header>
 
@@ -134,55 +122,54 @@
       🚨 Vagas limitadas: apenas 10 novas Hosts são aprovadas por dia. Aproveite enquanto ainda está disponível!
     </div>
 
-    <section class="section">
+    <section>
       <h2>Como funciona o trabalho?</h2>
-      <p>Você se cadastra como Host no Yaar, um aplicativo de videochamadas. Depois de aprovada, é só ficar online pelo celular e o app conecta você automaticamente com usuários do mundo inteiro. Eles compram moedas no app para conversar com você — e cada chamada atendida rende moedas, que viram pagamento em reais, enviado direto para o seu PIX, toda sexta-feira.</p>
-    </section>
-
-    <section class="section">
-      <h2>Por que trabalhar com o Yaar?</h2>
-      <div class="highlight">
-        <strong>Inscrição rápida e sem complicações:</strong> basta ser mulher entre 18 e 40 anos com um celular e internet.
-      </div>
-      <div class="highlight">
-        <strong>Sem padrão de beleza:</strong> o que importa é sua apresentação, simpatia e disposição para conversar.
-      </div>
-      <div class="highlight">
-        <strong>Horários totalmente flexíveis:</strong> você escolhe quando quer trabalhar.
-      </div>
-      <div class="highlight">
-        <strong>Pagamento garantido:</strong> semanal e direto na sua conta, em reais.
-      </div>
-      <div class="highlight">
-        <strong>Ambiente seguro:</strong> as chamadas são monitoradas 24h e as regras são claras para todos.
+      <div class="text-block">
+        <p>Você se cadastra como Host no Yaar, um aplicativo de videochamadas. Depois de aprovada, é só ficar online pelo celular e o app conecta você automaticamente com usuários do mundo inteiro. Eles compram moedas no app para conversar com você — e cada chamada atendida rende moedas, que viram pagamento em reais, enviado direto para o seu PIX, toda sexta-feira.</p>
       </div>
     </section>
 
-    <section class="section">
-      <h2>Quem pode se tornar uma Host?</h2>
-      <ul>
-        <li>Mulheres entre 18 e 40 anos</li>
-        <li>Com celular Android ou iPhone</li>
-        <li>Com acesso à internet estável</li>
-        <li>Que gostam de conversar e se comunicar com diferentes pessoas</li>
-        <li>Com paciência para crescer no app e conquistar seus próprios resultados</li>
-      </ul>
+    <section>
+      <h2>Por que escolher o Yaar?</h2>
+      <div class="text-block">
+        <ul>
+          <li><strong>Inscrição rápida:</strong> qualquer mulher entre 18 e 40 anos pode se inscrever.</li>
+          <li><strong>Não exige padrão de beleza:</strong> presença e simpatia são mais importantes.</li>
+          <li><strong>Horário 100% flexível:</strong> você escolhe quando quer entrar e sair do app.</li>
+          <li><strong>Pagamento garantido:</strong> direto no PIX, semanalmente.</li>
+          <li><strong>Ambiente seguro:</strong> com regras claras e chamadas monitoradas 24h.</li>
+        </ul>
+      </div>
     </section>
 
-    <section class="section">
-      <h2>O que você precisa saber antes de começar:</h2>
-      <ul>
-        <li>O app é +18 e o comportamento dos usuários pode incluir conteúdo adulto</li>
-        <li>As Hosts devem seguir regras rígidas, como não usar roupas sensuais ou termos eróticos nas chamadas públicas</li>
-        <li>Você só recebe se alcançar a meta semanal de moedas (acumulável por até 4 semanas)</li>
-        <li>É possível ganhar bem, mas exige presença, dedicação e persistência</li>
-      </ul>
+    <section>
+      <h2>Quem pode trabalhar como Host?</h2>
+      <div class="text-block">
+        <ul>
+          <li>Mulheres entre 18 e 40 anos</li>
+          <li>Com celular Android ou iPhone</li>
+          <li>Com internet estável</li>
+          <li>Que gostam de conversar e são persistentes</li>
+        </ul>
+      </div>
     </section>
 
-    <section class="section">
+    <section>
+      <h2>Antes de começar, saiba que:</h2>
+      <div class="text-block">
+        <ul>
+          <li>O app é +18 — o comportamento dos usuários pode incluir conteúdo adulto</li>
+          <li>As Hosts seguem regras rígidas: sem roupas sensuais ou termos eróticos nas chamadas públicas</li>
+          <li>Há uma meta mínima de moedas para sacar (acumulável por até 4 semanas)</li>
+          <li>É possível ganhar bem — com dedicação, consistência e tempo</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
       <h2>Quem já está ganhando com o Yaar</h2>
       <div class="testimonial">
-        <img src="https://i.imgur.com/xaU6B4D.jpg" alt="Foto de Camila" />
+        <img src="https://i.imgur.com/xaU6B4D.jpg" alt="Camila">
         <div class="testimonial-text">
           <strong>Camila, 27 anos - PR</strong><br>
           “Comecei sem saber nada, só com meu celular. Hoje recebo toda semana certinho e recomendo pra qualquer mulher que queira uma renda real sem sair de casa.”
@@ -191,7 +178,7 @@
     </section>
 
     <div class="cta">
-      <p style="margin-bottom: 2rem; font-weight: 600;">Se você leu até aqui, já entendeu que essa oportunidade é real. Está pronta para começar?</p>
+      <p>Se você chegou até aqui, é porque está pronta para dar o primeiro passo.</p>
       <button onclick="window.location.href='https://wa.me/554199017052'">
         📲 Quero garantir minha vaga no Yaar!
       </button>
