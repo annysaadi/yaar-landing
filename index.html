@@ -54,9 +54,36 @@
       margin-bottom: 0.5rem;
       font-size: 1rem;
     }
+    .testimonial {
+      background: #fffaf5;
+      padding: 1.5rem;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 3rem;
+    }
+    .testimonial img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .testimonial-text {
+      font-size: 1rem;
+    }
+    .urgency {
+      background: #ffe9e3;
+      border-left: 4px solid #ff715b;
+      padding: 1rem;
+      margin: 2rem 0;
+      font-weight: 600;
+      color: #b14a3c;
+      font-size: 1rem;
+    }
     .cta {
       text-align: center;
-      margin-top: 3rem;
+      margin-top: 5rem;
       padding: 0 1rem;
     }
     .cta button {
@@ -90,7 +117,7 @@
       .section h2 {
         font-size: 1.75rem;
       }
-      .highlight, ul li {
+      .highlight, ul li, .testimonial-text {
         font-size: 1.1rem;
       }
     }
@@ -103,6 +130,10 @@
   </header>
 
   <main class="container">
+    <div class="urgency">
+      🚨 Vagas limitadas: apenas 10 novas Hosts são aprovadas por dia. Aproveite enquanto ainda está disponível!
+    </div>
+
     <section class="section">
       <h2>Como funciona o trabalho?</h2>
       <p>Você se cadastra como Host no Yaar, um aplicativo de videochamadas. Depois de aprovada, é só ficar online pelo celular e o app conecta você automaticamente com usuários do mundo inteiro. Eles compram moedas no app para conversar com você — e cada chamada atendida rende moedas, que viram pagamento em reais, enviado direto para o seu PIX, toda sexta-feira.</p>
@@ -148,10 +179,21 @@
       </ul>
     </section>
 
+    <section class="section">
+      <h2>Quem já está ganhando com o Yaar</h2>
+      <div class="testimonial">
+        <img src="https://i.imgur.com/xaU6B4D.jpg" alt="Foto de Camila" />
+        <div class="testimonial-text">
+          <strong>Camila, 27 anos - PR</strong><br>
+          “Comecei sem saber nada, só com meu celular. Hoje recebo toda semana certinho e recomendo pra qualquer mulher que queira uma renda real sem sair de casa.”
+        </div>
+      </div>
+    </section>
+
     <div class="cta">
       <p style="margin-bottom: 2rem; font-weight: 600;">Se você leu até aqui, já entendeu que essa oportunidade é real. Está pronta para começar?</p>
       <button onclick="window.location.href='https://wa.me/554199017052'">
-        Falar com uma recrutadora no WhatsApp
+        📲 Quero garantir minha vaga no Yaar!
       </button>
     </div>
   </main>
@@ -161,3 +203,4 @@
   </footer>
 </body>
 </html>
+
